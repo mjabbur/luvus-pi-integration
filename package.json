@@ -1,0 +1,17 @@
+{
+  "name": "luvus-pi-integration",
+  "version": "1.0.0",
+  "description": "Integração experimental de estados de sessões Pi interativas com Luvus via extensão TypeScript.",
+    "scripts": {
+    "test": "node --test tests/luvus-pi.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "0.87.1",
+    "@types/node": "24.19.0",
+    "typescript": "^7.0.2"
+  }
+}
